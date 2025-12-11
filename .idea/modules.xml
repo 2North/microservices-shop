@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway/microservices-shop.api-gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway/microservices-shop.api-gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inventory-service/microservices-shop.inventory-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/inventory-service/microservices-shop.inventory-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notification-service/microservices-shop.notification-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/notification-service/microservices-shop.notification-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service/microservices-shop.order-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service/microservices-shop.order-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-service/microservices-shop.product-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-service/microservices-shop.product-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-service/microservices-shop.user-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/user-service/microservices-shop.user-service.main.iml" />
+    </modules>
+  </component>
+</project>

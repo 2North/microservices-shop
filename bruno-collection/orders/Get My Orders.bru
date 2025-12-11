@@ -1,0 +1,15 @@
+meta {
+  name: Get My Orders
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:3000/api/orders/my
+  body: none
+  auth: none
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwiZW1haWwiOiJqb2huQGV4YW1wbGUuY29tIiwiaWF0IjoxNzY1Mzc5ODg5LCJleHAiOjE3NjU0NjYyODl9.2p4IzANlpFK4JwYVUz4Zv7wfWwTz_zuWfgFeJRdJphw
+}

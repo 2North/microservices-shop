@@ -1,0 +1,25 @@
+meta {
+  name: Create Product
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3000/api/products
+  body: json
+  auth: none
+}
+
+headers {
+  Authorization: Bearer {{token}}
+}
+
+body:json {
+  {
+    "name": "New Product",
+    "description": "A brand new product",
+    "price": 99.99,
+    "category": "Electronics",
+    "imageUrl": "https://picsum.photos/seed/new/400/300"
+  }
+}

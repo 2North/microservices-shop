@@ -1,0 +1,15 @@
+{
+  "version": "1",
+  "name": "Microservices Shop API",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ],
+  "size": 0.004638671875,
+  "filesCount": 18,
+  "presets": {
+    "requestType": "http",
+    "requestUrl": "http://localhost:3000"
+  }
+}

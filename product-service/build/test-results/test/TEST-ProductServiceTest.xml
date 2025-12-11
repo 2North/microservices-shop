@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ProductServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-12-11T05:55:18" hostname="cherry" time="1.9">
+  <properties/>
+  <testcase name="getProductById_ProductExists_ReturnsProductDto()" classname="ProductServiceTest" time="1.86"/>
+  <testcase name="getProductById_ProductNotFound_ThrowsException()" classname="ProductServiceTest" time="0.014"/>
+  <testcase name="searchProducts_FindsMatchingProducts()" classname="ProductServiceTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

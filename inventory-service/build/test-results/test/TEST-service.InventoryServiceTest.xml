@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="service.InventoryServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-12-11T05:55:16" hostname="cherry" time="2.416">
+  <properties/>
+  <testcase name="checkStock_ProductInStock_ReturnsTrue()" classname="service.InventoryServiceTest" time="2.346"/>
+  <testcase name="reserveStock_InsufficientStock_ThrowsException()" classname="service.InventoryServiceTest" time="0.035"/>
+  <testcase name="reserveStock_SufficientStock_ReservesSuccessfully()" classname="service.InventoryServiceTest" time="0.016"/>
+  <testcase name="checkStock_ProductOutOfStock_ReturnsFalse()" classname="service.InventoryServiceTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="service.NotificationServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-12-11T05:55:18" hostname="cherry" time="2.135">
+  <properties/>
+  <testcase name="sendNotification_SavesAndReturnsNotification()" classname="service.NotificationServiceTest" time="2.097"/>
+  <testcase name="getUnreadCount_ReturnsCorrectCount()" classname="service.NotificationServiceTest" time="0.017"/>
+  <testcase name="getUserNotifications_ReturnsUserNotifications()" classname="service.NotificationServiceTest" time="0.009"/>
+  <system-out><![CDATA[07:55:20.023 [Test worker] INFO com.shop.notification.service.NotificationService -- Notification sent to user 1: Order Created
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

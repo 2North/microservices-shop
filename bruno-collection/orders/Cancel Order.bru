@@ -1,0 +1,15 @@
+meta {
+  name: Cancel Order
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:3000/api/orders/1/cancel
+  body: none
+  auth: none
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiIyIiwiZW1haWwiOiJqb2huQGV4YW1wbGUuY29tIiwiaWF0IjoxNzY0ODMxNjc1LCJleHAiOjE3NjQ5MTgwNzV9.kSwn4VP0t_P_i73iIUuIGwVlI_tT00wtGPVaL4BBdcHCpvMwH_O2NkXDprRKIS0B
+}

@@ -1,0 +1,15 @@
+meta {
+  name: Check Stock
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:3000/api/inventory/check/1?quantity=74
+  body: none
+  auth: none
+}
+
+params:query {
+  quantity: 74
+}
